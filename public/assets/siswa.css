@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(230, 245, 216);
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 280px;
+    display:block;
+    margin: auto;
+    margin-block: 20px;
+}
+
+span {
+    margin-inline-start: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    
+}
+
+p {
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+    text-indent: 3em;
+    text-align: justify;
+    line-height: 25px;
+   
+}
+a {
+    color: rgb(27, 17, 17);
+    text-decoration: solid;
+    margin-inline-start: 30px;
+    font-weight: bold;
+}
