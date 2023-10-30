@@ -1,0 +1,59 @@
+/* Tampilan Judul Halaman */
+h1 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Tampilan Tautan "tambah" */
+h2 a {
+    text-decoration: none;
+    background-color: hsl(197, 92%, 42%);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Tampilan Daftar Penulis */
+.author-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+/* Tampilan Tautan "Lihat", "Edit", dan "Hapus" */
+.author-item a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.delete-form input[type="submit"] {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* CSS untuk tampilan tabel */
+.author-list {
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+.author-item {
+    display: table-row;
+}
+
+.author-item > div {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/* CSS untuk membuat tulisan di tengah */
+h1 {
+    text-align: center;
+    line-height: 2; /* Ini akan membantu untuk pusatkan vertikal */
+}
